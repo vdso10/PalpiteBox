@@ -7,11 +7,11 @@ const Contato = () => {
         <>
             <div>
                 <PageTitle title='Contato' />
-                <h1>Contato</h1>
+                <h1 className='font-bold mb-6'>Contato</h1>
                 <div>
-                    <Link href='/'>
-                        <a>Home</a>
-                    </Link>
+                    <p>Email: teste@teste.com.br</p>
+                    <p>Tel: (31)3000-0000</p>
+                    <p>Whattapp: (31) 00000-00000</p>
                 </div>
             </div>
         </>

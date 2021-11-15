@@ -7,7 +7,8 @@ const Pesquisa = () => {
         Nome:'',
         Email:'',
         Whatsapp:'',
-        Nota: 0
+        Nota: 0,
+        Observacao:''
     })
 
     const notas = [0, 1, 2, 3, 4, 5]
@@ -58,6 +59,9 @@ Por isso, estamos sempre abertos a ouvir sua opinião
                     <input type='text' className='p-4 block shadow bg-blue-200 rounded w-96' placeholder='Email' onChange={onChange} name='Email' value={form.Email}></input>
                     <label className='font-bold'>Whatsapp:</label>
                     <input type='text' className='p-4 block shadow bg-blue-200 rounded w-96' placeholder='Whatsapp' onChange={onChange} name='Whatsapp' value={form.Whatsapp}></input>
+                    <label className='font-bold'>Sugestão / Critica:</label>
+                    <textarea className='p-4 block shadow bg-blue-200 rounded w-96' onChange={onChange} name='Sugestao' value={form.Sugestao}></textarea>
+                    
                     <label className='font-bold'>Nota:</label>
                     <div className='flex py-6'>
                         {notas.map(nota => {
