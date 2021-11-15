@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Link from 'next/link'
 import PageTitle from '../components/PageTitle'
 
 const Pesquisa = () => {
