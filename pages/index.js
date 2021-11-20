@@ -17,8 +17,8 @@ const Index = () => {
             <PageTitle title='Seja Bem Vindo' />
             
             <p className='mt-6 text-center'>
-                O restaurante X sempre busca atender melhor seus clientes.<br />
-                Por isso, estamos sempre abertos a ouvir sua opinião                
+                O restaurante TOP sempre busca atender melhor seus clientes.<br />
+                Por isso, estamos sempre abertos a ouvir suas críticas, sugestões ou elogios!                
                 
             </p>
             <div className='text-center my-12'>

@@ -17,15 +17,15 @@ const Contato = () => {
                     <div class="grid grid-cols-2 gap-4 max-w-xl m-auto">
 
                         <div class="col-span-2 lg:col-span-1">
-                        <input type="text" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Name"/>
+                        <input type="text" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Nome"/>
                         </div>
 
                         <div class="col-span-2 lg:col-span-1">
-                        <input type="text" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Email Address"/>
+                        <input type="text" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Email"/>
                         </div>
 
                         <div class="col-span-2">
-                        <textarea cols="30" rows="8" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Message"></textarea>
+                        <textarea cols="30" rows="8" class="border-solid border-gray-400 border-2 p-3 md:text-xl w-full" placeholder="Mensagem"></textarea>
                         </div>
 
                         <div class="col-span-2 text-right">
