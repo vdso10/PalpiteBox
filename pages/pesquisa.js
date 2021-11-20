@@ -52,8 +52,8 @@ const Pesquisa = () => {
                 <PageTitle title='Pesquisa' />
                 <h1 className='my-4 text-center font-bold text-2xl'>Critica e sugestões</h1>
                 <p className='mt-6 text-center'>
-                O restaurante X sempre busca atender melhor seus clientes.
-Por isso, estamos sempre abertos a ouvir sua opinião
+                O restaurante TOP sempre privando pela satisfação de seus clientes.
+                Participe da nossa pesquisa e concorra a descontos!
                 </p>
                 {!sucess &&
                 <div className='w-2/5 mx-auto mt-4'>
