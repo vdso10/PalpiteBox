@@ -15,14 +15,17 @@ const Index = () => {
         <>
         <div>
             <PageTitle title='Seja Bem Vindo' />
+            
             <p className='mt-6 text-center'>
                 O restaurante X sempre busca atender melhor seus clientes.<br />
-                Por isso, estamos sempre abertos a ouvir sua opinião
+                Por isso, estamos sempre abertos a ouvir sua opinião                
+                
             </p>
             <div className='text-center my-12'>
                 <Link href='/pesquisa'>
                     <a className='bg-blue-400 px-12 py-4 font-bold rounded-lg hover: shadow'>Dar sua opinião ou sugestão</a>
-                </Link>
+                </Link>                
+                
             </div>
             { !data && <div><p className='text-center'>Carregando...</p></div>}
             {!error && data && data.showCoupon &&

@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './styles.module.css'
 import Link from 'next/link'
 
+
 const Header = () =>{
     return(
         <>
@@ -21,7 +22,8 @@ const Header = () =>{
                 </Link>
                 <Link href='/contato'>
                     <a className='px-2 hover:underline'>Contato</a>
-                </Link>   
+                </Link>
+                
             </div>
         </>
     )

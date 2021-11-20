@@ -43,6 +43,7 @@ export default async(req, res) =>{
             Nota: parseInt(data.Nota),
             'Data Preenchimento': moment().format('DD/MM/YYYY, HH:mm:ss'),
             Sugestao: data.Sugestao,
+            Indica: data.Indica,
             Cupom,
             Promo
         })
