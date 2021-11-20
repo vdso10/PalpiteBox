@@ -92,7 +92,7 @@ Por isso, estamos sempre abertos a ouvir sua opinião
                       }
                     </div>
 
-                    <button onClick={save} className='mt-4 bg-blue-400 px-12 py-4 font-bold rounded-lg hover: shadow'>Salvar</button>
+                    <button onClick={save} className='w-full text-center mt-4 bg-blue-400 px-12 py-4 font-bold rounded-lg hover: shadow'>Salvar</button>
                     
                 </div>
                 }
@@ -125,50 +125,7 @@ Por isso, estamos sempre abertos a ouvir sua opinião
             </div>
         </>
     )
-
-    function validar() {
-        // pegando o valor do nome pelos names
-        var nome = document.getElementById("Nome");
-        var email = document.getElementById("Email");
-        var whatsapp = document.getElementById("Whatsapp");
-        var sugestao = document.getElementById("Sugestao");
-        var nota = document.getElementById("Nota");
-        
-      
-        // verificar se o nome está vazio
-        if (nome.value == "") {
-          alert("Nome não informado");
-      
-          // Deixa o input com o focus
-          nome.focus();
-          // retorna a função e não olha as outras linhas
-          return;
-        }
-        
-        if (email.value == "") {
-          alert("E-mail não informado");
-          email.focus();
-          return;
-        }
-        if (whatsapp.value == "") {
-          alert("Whatsapp não informado");
-          whatsapp.focus();
-          return;
-        }
-        if (sugestao.value == "") {
-          alert("Sugestão ou Crítica não informado");
-          sugestao.focus();
-          return;
-        }
-        if (nota.value == "") {
-          alert("Nota não informado");
-          nota.focus();
-          return;
-        }
-        
-        // envia o formulário
-        //formulario.submit();
-      }
+    
 }
 
 
