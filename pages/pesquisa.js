@@ -66,7 +66,7 @@ const Pesquisa = () => {
                     <label className='font-bold'>Sugestão / Critica:</label>
                     <textarea className='bg-blue-100 mb-2 shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:bg-white focus:border-gray-500' onChange={onChange} name='Sugestao' value={form.Sugestao}></textarea>
                     
-                    <p className='text-center'>Qual a sua nota para nosso Estabelcimento? </p>
+                    <p className='text-center'>Qual a sua nota para nosso Estabelecimento? </p>
                     <div className='flex py-6'>
                         {notas.map(nota => {
                             return (
